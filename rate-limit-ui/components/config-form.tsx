@@ -34,7 +34,7 @@ export default function ConfigForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="border border-gray-300 p-5 rounded-lg bg-gray-50 h-full flex flex-col"
+      className="card h-full flex flex-col gap-3"
     >
       <h2 className="text-xl font-bold mb-4 text-center">Send Configuration</h2>
 

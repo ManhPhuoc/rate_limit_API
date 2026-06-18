@@ -64,8 +64,8 @@ export default function CheckForm() {
   const allow = result?.data?.allow;
 
   return (
-    <div className="border border-gray-300 p-5 rounded-lg bg-gray-50 h-full flex flex-col">
-      <h2 className="text-xl font-bold mb-4 text-center">Check Request</h2>
+    <div className="card h-full flex flex-col gap-3">
+      <h2 className="text-xl font-bold mb-2 text-center">Check Request</h2>
 
       <div className="mb-4 flex flex-col">
         <label className="text-sm font-semibold mb-1">API Key</label>
